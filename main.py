@@ -346,4 +346,4 @@ def refresh_data(n_clicks):
     return [{'label': f'{stock} Corporation', 'value': stock} for stock in stocks]
 
 if __name__ == '__main__':
-    app.run(debug=True, port=8050)
+    app.run(host="0.0.0.0", debug=True, port=8080)
